@@ -1,0 +1,200 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #575757;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .menu li:first-child {
+    margin-left: 0;
+  }
+  
+  .menu a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Main Sections */
+  
+  .section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-bottom: 40px;
+  }
+  
+  .feature i {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Form */
+  
+  section#contact form input,
+  section#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  section#contact form button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .hero {
+    padding-bottom: 0px;
+  }
+  
+  * {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  nav .container .logo {
+    padding-right: 600px;
+    font-size: 40px;
+  }
+  
+  nav .container img{
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .hero img{
+    width: 100px;
+  }
+  
+  header{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .menu li a:hover{
+    color: yellow;
+    border-bottom: solid yellow;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+  }
+  
+  .menu li a{
+    shape-margin: 50px;
+  }
+  
+  .about{
+    background-color: #333;
+  }
+  
+  .about h2, h3, p{
+    color: #fff;
+  }
